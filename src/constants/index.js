@@ -1,11 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
+import edupanda from "../assets/projects/edupanda.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
 export const PROJECTS = [
   {
     title: "EduPanda",
-    image: project1,
+    image: edupanda,
     description: [
       "Contributed to the full-stack development of EduPanda, an educational platform built onservice-oriented architecture.",
       "-Worked on the learner-service.",
