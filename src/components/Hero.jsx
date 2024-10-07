@@ -45,7 +45,7 @@ const Hero = () => {
                         </motion.p>
                         <motion.a
                             href={cv}
-                            download="AshenSavindaC.pdf"
+                            download="AshenSavindaCV.pdf"
                             variants={container(1.5)}
                             initial="hidden"
                             animate="visible"
