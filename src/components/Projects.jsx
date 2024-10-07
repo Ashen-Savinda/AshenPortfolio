@@ -1,3 +1,4 @@
+import { span } from "framer-motion/client"
 import { PROJECTS } from "../constants"
 import { motion } from 'framer-motion'
 
@@ -10,7 +11,7 @@ const Projects = () => {
                 transition={{ duration: 1.5 }}
                 className="my-20 text-center text-4xl font-thin">Projects</motion.h2>
             <div>{PROJECTS.map((project, index) => (
-                <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+                <div key={index} className="mb-20 flex flex-wrap lg:justify-center">
                     <motion.div
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: -100 }}
@@ -34,7 +35,11 @@ const Projects = () => {
                         {project.description.map((line, i) => (
                             <p key={i} className="mb-0.5 text-neutral-400 tracking-tighter">{line}</p>
                         ))}
-                        
+
+                        {project.link.map((line, i) => (
+                            <span>---&gt;<a key={i} href={line} className="mb-0.5 text-neutral-500 font-medium tracking-tighter">{line}<br /></a></span>
+                        ))}
+                        <br />
                         {project.technologies.map((tech, index) => (
                             <span
                                 key={index}

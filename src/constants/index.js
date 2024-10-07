@@ -12,6 +12,8 @@ export const PROJECTS = [
       "-Integrated a payment gateway using Stripe.",
       "-Developed the email-service.",
       "-Contributed to the development of the SMS-service."],
+    link: [
+      "https://github.com/IT21252990/EduPanda"],
     technologies: ["HTML", "CSS", "React.js", "Node.js", "Express.js", "MongoDB"],
   },
   {
@@ -22,6 +24,9 @@ export const PROJECTS = [
       "-Integrated user and theme context.",
       "-Ensured compatibility across various devices and screen sizes.",
       "-Employed Tailwind CSS for streamlined styling and efficient UI/UX design."],
+      link: [
+        "https://github.com/Ashen-Savinda/NASA_APIs",
+        "https://nasaapis-astro.netlify.app/"],
     technologies: ["HTML", "TailwindCSS", "React.js", "Node,js", "Express.js", "MongoDB"],
   },
   {
@@ -33,6 +38,8 @@ export const PROJECTS = [
         "-Developed and integrated role-based authentication and authorization for Admins, Faculty, and Students.",
         "-Ensured data integrity and compliance with industry best practices."
       ],
+      link: [
+        "https://github.com/Ashen-Savinda/NodeLMS.git"],
     technologies: ["Node.js", "Express.js", "MongoDB", "Postman"],
   }
 ];
