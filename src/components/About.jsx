@@ -8,7 +8,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -70 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl font-thin">
+                className="my-16 text-center text-4xl font-thin">
                 About Me
             </motion.h2>
             <div className="flex flex-wrap">
@@ -31,7 +31,7 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                        <p className="my-16 max-w-xl py-6 font-light tracking-tighter">
                             I am a driven Software Engineering undergraduate with hands-on
                             experience in full-stack development. I’m most accustomed to
                             working with MongoDB, Express.js, React.js, Node.js, and JavaScript

@@ -1,6 +1,6 @@
 import edupanda from "../assets/projects/edupanda.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import spacelogo from "../assets/projects/SpaceLogo.png";
+import timetable from "../assets/projects/timetable.png";
 
 export const PROJECTS = [
   {
@@ -16,17 +16,17 @@ export const PROJECTS = [
   },
   {
     title: "NasaAPIs",
-    image: project2,
+    image: spacelogo,
     description: [
       "Executed frontend development for a responsive website utilizing NASA's APOD and Mars Rover Photos APIs.",
       "-Integrated user and theme context.",
       "-Ensured compatibility across various devices and screen sizes.",
       "-Employed Tailwind CSS for streamlined styling and efficient UI/UX design."],
-    technologies: ["HTML", "TailwindCSS", "React.js"],
+    technologies: ["HTML", "TailwindCSS", "React.js", "Node,js", "Express.js", "MongoDB"],
   },
   {
     title: "University Timetable Management System",
-    image: project3,
+    image: timetable,
     description:[ 
         "Executed backend development for a University Timetable Management System.",
         "-Focused on implementing a secure RESTful API using Express JS (Node.js) and MongoDB.",
