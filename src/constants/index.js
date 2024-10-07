@@ -15,7 +15,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React.js", "Node.js", "Express.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "NasaAPIs",
     image: project2,
     description: [
       "Executed frontend development for a responsive website utilizing NASA's APOD and Mars Rover Photos APIs.",
@@ -25,7 +25,7 @@ export const PROJECTS = [
     technologies: ["HTML", "TailwindCSS", "React.js"],
   },
   {
-    title: "Portfolio Website",
+    title: "University Timetable Management System",
     image: project3,
     description:[ 
         "Executed backend development for a University Timetable Management System.",
