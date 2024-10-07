@@ -45,7 +45,7 @@ const Hero = () => {
                         </motion.p>
                         <motion.a
                             href={cv}
-                            download="AshenSavindaCV.pdf"
+                            download="AshenSavindaC.pdf"
                             variants={container(1.5)}
                             initial="hidden"
                             animate="visible"
@@ -59,18 +59,19 @@ const Hero = () => {
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center ">
-                        <motion.img 
-                        initial={{x:100, opacity:0}}
-                        animate={{x:0, opacity:1}}
-                        transition={{duration:1, delay:1.1}}
-                        style={{ 
-                            maxWidth: '70%', 
-                            maxHeight: '70%', 
-                            backdropFilter: 'blur(10px)',
-                            background: 'rgba(255, 255, 255, 0.1)',
-                            boxShadow: '0px 4px 30px rgba(0, 0, 0, 0.1)' }}
-                        className="rounded-2xl"
-                        src={profilePic} alt="Ashen Savinda Profile Picture" />
+                        <motion.img
+                            initial={{ x: 100, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 1, delay: 1.1 }}
+                            style={{
+                                maxWidth: '70%',
+                                maxHeight: '70%',
+                                backdropFilter: 'blur(10px)',
+                                background: 'rgba(255, 255, 255, 0.1)',
+                                boxShadow: '0px 4px 30px rgba(0, 0, 0, 0.1)'
+                            }}
+                            className="rounded-2xl"
+                            src={profilePic} alt="Ashen Savinda Profile Picture" />
                     </div>
                 </div>
             </div>
